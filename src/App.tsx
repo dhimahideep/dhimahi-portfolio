@@ -19,12 +19,12 @@ function BrowserArt({ build }: { build: (typeof builds)[number] }) {
           <figure className={`artifact-frame artifact-${build.id}`}>
             <img src={build.image} alt={`${build.title} interface design`} />
             <figcaption>ORIGINAL UI ARTIFACT / 0{build.id}</figcaption>
-         </figure>
+  </figure>
     )}
-  </div>
+      </div>
+    </div>
   );
 }
-
 export default function App() {
   return (
       <nav className="pill-nav">
