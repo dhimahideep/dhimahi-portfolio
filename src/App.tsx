@@ -21,11 +21,12 @@ function BrowserArt({ build }: { build: (typeof builds)[number] }) {
             <figcaption>ORIGINAL UI ARTIFACT / 0{build.id}</figcaption>
           </figure>
         )}
-      </div>
-    </div>
+     </div>
   );
+}
+
+export default function App() {
   return (
-    <main>
       <nav className="pill-nav">
         <a className="brand" href="#top">dhimahi deep<span>.</span></a>
         <div className="nav-center"><a href="#work">// WORK</a><a href="#leadership">// LEADERSHIP</a><a href="#studio">// THE ARCHIVE</a><a href="#about">// ABOUT</a></div>
