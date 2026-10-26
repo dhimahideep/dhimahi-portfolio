@@ -36,7 +36,7 @@ export default function App() {
       </nav>
 
       <header className="hero" id="top">
-        <div className="hero-meta"><span>CREATIVE TECHNOLOGIST</span><span>ORATOR</span><span>PUNE, INDIA</span></div>
+        <div className="hero-meta"><span>CREATIVE TECHNOLOGIST</span><span>PUNE, INDIA</span></div>
         <h1><span>CODE.</span><span>DESIGN.</span><span className="outlined">MIC.</span><span className="canvas-word">CANVAS.</span></h1>
         <div className="hero-bottom">
           <div className="hero-lower">
@@ -102,7 +102,7 @@ export default function App() {
         <div className="about-copy">
           <code>[ 05 ] THE PERSON IN THE PROCESS</code>
           <h2>I BUILD LOUD.<br /><span>I LISTEN HARD.</span></h2>
-          <p>I’m an extroverted builder, feminist, plant parent, flavor hunter, and lifelong collector of stories—some told on stage, some in code, and some painted straight onto a pair of sneakers.</p>
+          <p>I’m an extroverted builder, feminist, plant parent, flavor hunter, and lifelong collector of stories. Some are told on stage, some in code, and some painted straight onto a pair of sneakers.</p>
           <p>Six years of Bharatnatyam taught me rhythm, precision, and presence. Oratory made me fearless in a room. Community work made me practical. Together, they shape how I build: structured like choreography, expressive like a speech, and always made for real people.</p>
           <div className="curiosities">
             <div className="curiosity stamp-card"><b>STAMP<br />COLLECTOR</b><span>PHILATELY / 01</span></div>
