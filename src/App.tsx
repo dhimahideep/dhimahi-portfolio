@@ -24,15 +24,6 @@ function BrowserArt({ build }: { build: (typeof builds)[number] }) {
       </div>
     </div>
   );
-}
-
-export default function App() {
-  document.title = "Dhimahi Deep | Portfolio";
-
-  return (
-    // ... your site layout ...
-  );
-}) {
   return (
     <main>
       <nav className="pill-nav">
