@@ -1,7 +1,8 @@
 {
-  "description": "Showcases a Fergusson College computer science student’s frontend projects, design skills, and campus leadership to connect with collaborators and opportunities.",
+  "title": "Dhimahi Deep | Portfolio",
+  "description": "UI/UX Designer & Creative Technologist",
   "robots": {
-    "index": false
+    "index": true
   },
   "accessibility": {
     "addBypassLinks": false,
