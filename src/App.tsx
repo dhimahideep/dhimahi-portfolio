@@ -19,9 +19,9 @@ function BrowserArt({ build }: { build: (typeof builds)[number] }) {
           <figure className={`artifact-frame artifact-${build.id}`}>
             <img src={build.image} alt={`${build.title} interface design`} />
             <figcaption>ORIGINAL UI ARTIFACT / 0{build.id}</figcaption>
-          </figure>
-        )}
-     </div>
+         </figure>
+    )}
+  </div>
   );
 }
 
