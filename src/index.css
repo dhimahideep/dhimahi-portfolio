@@ -36,3 +36,7 @@ footer{padding:110px 5% 35px;background:var(--lilac);color:var(--black)}.footer-
 
 /* Compact craft archive — no photography placeholders */
 .studio .specimen{min-height:240px;padding:26px;display:flex;flex-direction:column;justify-content:space-between}.studio .specimen h3{font-size:clamp(28px,3vw,43px);line-height:.9;margin:55px 0 18px}.studio .specimen>p{max-width:260px}.studio .textile-specimen{background:var(--black);color:#fff}.studio .canvas-specimen{background:var(--lilac);color:#fff}
+
+/* Align the Human Stack headline and capabilities */
+.bento-human{grid-template-columns:minmax(0,1.15fr) minmax(280px,.85fr);grid-template-rows:auto 1fr;column-gap:64px;align-items:start}.bento-human>span{grid-column:1/-1;grid-row:1}.bento-human h3{grid-column:1;grid-row:2;align-self:start;margin-top:40px}.bento-human .tags{grid-column:2;grid-row:2;align-self:start;align-content:start;align-items:center;margin-top:40px}.bento-human .tags b{display:inline-flex;align-items:center;justify-content:center;min-height:38px;text-align:center;line-height:1.2}
+@media(max-width:600px){.bento-human h3,.bento-human .tags{margin-top:28px}}

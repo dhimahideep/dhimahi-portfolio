@@ -2,7 +2,7 @@ const builds = [
   { id: "01", title: "First PR Copilot", tags: ["UI/UX", "DEV TOOL"], tone: "dark", label: "OPEN-SOURCE ISSUE INTELLIGENCE", image: "/projects/first-pr-copilot.png" },
   { id: "02", title: "Bread Pitt", tags: ["WEB DESIGN", "BRANDING"], tone: "rose", label: "PLAYFUL FOOD LANDING PAGE", image: "/projects/bread-pitt.png" },
   { id: "03", title: "SIFLens", tags: ["FIGMA", "DASHBOARD"], tone: "volt", label: "SAFETY INTELLIGENCE SYSTEM", image: "/projects/siflens.png" },
-  { id: "04", title: "AI Security Field Guide", tags: ["EDITORIAL", "UI/UX"], tone: "dark", label: "POST-ASSESSMENT SECURITY BRIEF", image: "/projects/ai-security-field-guide.png" },
+  { id: "04", title: "AI Security Field Guide", tags: ["EDITORIAL", "UI/UX"], tone: "dark", label: "POST-ASSESSMENT SECURITY BRIEF", image: "/projects/ai-security-field-guide-final.png" },
 ];
 
 const Arrow = () => (
@@ -48,7 +48,7 @@ export default function App() {
             <figcaption>IN THE ROOM / 2025</figcaption>
           </figure>
         </div>
-        <div className="sticker">EXTROVERTED BUILDER ✦<br />FEMINIST ✦ STORYTELLER</div>
+        <div className="sticker">EXTROVERTED BUILDER ✦<br />CURIOUS STORYTELLER</div>
         <span className="scribble">ideas with volume!</span>
       </header>
 
@@ -74,7 +74,7 @@ export default function App() {
       </section>
 
       <section className="work section" id="work">
-        <div className="work-title"><p>[ 03 ] SELECTED BUILDS</p><h2>&amp; RAW<br /><span>ARTIFACTS.</span></h2><p className="side-note">not just case studies—<br />the actual messy stuff ↗</p></div>
+        <div className="work-title"><p>[ 02 ] SELECTED BUILDS</p><h2>&amp; RAW<br /><span>ARTIFACTS.</span></h2><p className="side-note">not just case studies—<br />the actual messy stuff ↗</p></div>
         <div className="build-grid">
           {builds.map((build, index) => (
             <article className={`build-card card-${index + 1}`} key={build.id}>
@@ -87,7 +87,7 @@ export default function App() {
 
       <section className="studio section" id="studio">
         <div className="studio-head">
-          <div><code>[ 04 ] TANGIBLE STUDIO</code><h2>WEARABLE ART &amp;<br /><span>CANVAS ARCHIVE.</span></h2></div>
+          <div><code>[ 03 ] TANGIBLE STUDIO</code><h2>WEARABLE ART &amp;<br /><span>CANVAS ARCHIVE.</span></h2></div>
           <p>// HAND-PAINTED SNEAKERS,<br />HOODIES, TEES &amp; CANVASES</p>
         </div>
         <div className="specimen-grid">
@@ -100,9 +100,9 @@ export default function App() {
 
       <section className="about section" id="about">
         <div className="about-copy">
-          <code>[ 05 ] THE PERSON IN THE PROCESS</code>
+          <code>[ 04 ] THE PERSON IN THE PROCESS</code>
           <h2>I BUILD LOUD.<br /><span>I LISTEN HARD.</span></h2>
-          <p>I’m an extroverted builder, feminist, plant parent, flavor hunter, and lifelong collector of stories. Some are told on stage, some in code, and some painted straight onto a pair of sneakers.</p>
+          <p>I’m an extroverted builder, plant parent, flavor hunter, and lifelong collector of stories. Some are told on stage, some in code, and some painted straight onto a pair of sneakers.</p>
           <p>Six years of Bharatnatyam taught me rhythm, precision, and presence. Oratory made me fearless in a room. Community work made me practical. Together, they shape how I build: structured like choreography, expressive like a speech, and always made for real people.</p>
           <div className="curiosities">
             <div className="curiosity stamp-card"><b>STAMP<br />COLLECTOR</b><span>PHILATELY / 01</span></div>
@@ -120,7 +120,7 @@ export default function App() {
       </section>
 
       <section className="skills section">
-        <div className="skill-head"><code>[ 06 ] CAPABILITY MATRIX</code><h2>WHAT I BRING<br />TO THE <span>TABLE.</span></h2></div>
+        <div className="skill-head"><code>[ 05 ] CAPABILITY MATRIX</code><h2>WHAT I BRING<br />TO THE <span>TABLE.</span></h2></div>
         <div className="bento">
           <article className="bento-ui"><span>01 / DESIGN + EDIT</span><h3>CREATIVE<br />SYSTEMS</h3><div className="tags"><b>FIGMA</b><b>WIREFRAMING</b><b>DAVINCI RESOLVE</b><b>ADOBE STUDIO</b><b>MICRO-INTERACTIONS</b></div></article>
           <article className="bento-code"><span>02 / FRONTEND + CORE CS</span><h3>&lt;BUILD /&gt;</h3><div className="code-list"><p>HTML5</p><p>MODERN CSS</p><p>JAVASCRIPT BASICS</p><p>C++ FUNDAMENTALS</p></div></article>
