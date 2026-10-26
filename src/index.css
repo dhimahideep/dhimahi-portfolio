@@ -91,3 +91,38 @@ footer{padding:110px 5% 35px;background:var(--lilac);color:var(--black)}.footer-
   .footer-bottom{flex-direction:column;gap:20px;text-align:center}
   .footer-bottom div{flex-wrap:wrap;justify-content:center}
 }
+
+/* Mobile overflow hardening */
+@media(max-width:767px){
+  main *{min-width:0}
+  img,svg{max-width:100%}
+  .hero,.section,footer{padding-left:16px;padding-right:16px}
+  h1,h2,h3,p,code,figcaption,.hero-meta,.section-label,.work-title,.studio-head,.about-copy,.skill-head,.build-info,.footer-kicker{
+    max-width:100%;
+    overflow-wrap:anywhere;
+    word-break:break-word;
+  }
+  .hero h1{
+    width:100%;
+    max-width:100%;
+    font-size:clamp(42px,13.5vw,66px);
+    line-height:.82;
+    letter-spacing:-.055em;
+  }
+  .hero h1 .canvas-word{font-size:.64em;letter-spacing:-.045em}
+  .section-head h2,.skills-title h2,.work-title h2,.studio-head h2,.about-copy h2,.skill-head h2{
+    width:100%;
+    font-size:clamp(38px,11.5vw,56px);
+    line-height:.9;
+    letter-spacing:-.045em;
+  }
+  .lead-card h2{font-size:clamp(32px,10vw,44px);letter-spacing:-.045em}
+  .project-meta h3,.build-info h3{font-size:clamp(22px,7vw,30px)}
+  .bento h3,.bento-human h3{font-size:clamp(38px,12vw,56px);letter-spacing:-.045em}
+  footer h2{font-size:clamp(40px,12.5vw,60px);letter-spacing:-.05em}
+  .sticker{max-width:calc(100% - 32px);white-space:normal;overflow-wrap:break-word}
+  .marquee{max-width:100%;padding-left:16px;padding-right:16px;overflow:hidden}
+  .marquee div,.marquee span{width:100%;max-width:100%;white-space:normal;overflow-wrap:break-word;word-break:break-word}
+  .tape,.corner-tape{max-width:72px}
+  .email-pill,.footer-bottom,.footer-bottom div,.tags,.skill-pills{max-width:100%}
+}
