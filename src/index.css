@@ -41,6 +41,10 @@ footer{padding:110px 5% 35px;background:var(--lilac);color:var(--black)}.footer-
 .bento-human{grid-template-columns:minmax(0,1.15fr) minmax(280px,.85fr);grid-template-rows:auto 1fr;column-gap:64px;align-items:start}.bento-human>span{grid-column:1/-1;grid-row:1}.bento-human h3{grid-column:1;grid-row:2;align-self:start;margin-top:40px}.bento-human .tags{grid-column:2;grid-row:2;align-self:start;align-content:start;align-items:center;margin-top:40px}.bento-human .tags b{display:inline-flex;align-items:center;justify-content:center;min-height:38px;text-align:center;line-height:1.2}
 @media(max-width:600px){.bento-human h3,.bento-human .tags{margin-top:28px}}
 
+/* Multidisciplinary creative toolkit */
+.bento-multi{grid-column:1/-1;min-height:340px;background:#9fc9ff;display:grid;grid-template-columns:.8fr 1.2fr;grid-template-rows:auto 1fr;column-gap:60px}.bento-multi>span{grid-column:1/-1;font:700 9px "Space Mono"}.bento-multi h3{grid-column:1;align-self:end;font-size:64px;margin:45px 0 0}.bento-multi .tags{grid-column:2;align-self:end;align-content:end}.bento-multi .tags b{display:inline-flex;min-height:38px;align-items:center;text-align:center}
+@media(max-width:767px){.bento-multi{grid-column:auto;display:block;min-height:0}.bento-multi h3{font-size:clamp(38px,12vw,56px);margin:35px 0}.bento-multi .tags{margin-top:0}}
+
 /* Full mobile layout — desktop styles remain unchanged */
 @media(max-width:767px){
   html,body,#root,main{width:100%;max-width:100%;overflow-x:hidden}
