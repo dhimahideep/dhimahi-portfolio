@@ -27,8 +27,8 @@ function BrowserArt({ build }: { build: (typeof builds)[number] }) {
 }
 export default function App() {
   return (
+    <>
       <nav className="pill-nav">
-        <a className="brand" href="#top">dhimahi deep<span>.</span></a>
         <div className="nav-center"><a href="#work">// WORK</a><a href="#leadership">// LEADERSHIP</a><a href="#studio">// THE ARCHIVE</a><a href="#about">// ABOUT</a></div>
         <div className="nav-right"><a className="talk" href="#contact">LET’S TALK <Arrow /></a></div>
       </nav>
