@@ -1,0 +1,10 @@
+{
+  "description": "Showcases a Fergusson College computer science student’s frontend projects, design skills, and campus leadership to connect with collaborators and opportunities.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
