@@ -32,7 +32,7 @@ export default function App() {
       <nav className="pill-nav">
         <a className="brand" href="#top">dhimahi deep<span>.</span></a>
         <div className="nav-center"><a href="#work">// WORK</a><a href="#leadership">// LEADERSHIP</a><a href="#studio">// THE ARCHIVE</a><a href="#about">// ABOUT</a></div>
-        <div className="nav-right"><a className="talk" href="mailto:deepdhimahi@gmail.com">LET’S TALK <Arrow /></a></div>
+        <div className="nav-right"><a className="talk" href="https://mail.google.com/mail/?view=cm&fs=1&to=deepdhimahi@gmail.com" target="_blank" rel="noreferrer">LET’S TALK <Arrow /></a></div>
       </nav>
 
       <header className="hero" id="top">
@@ -131,7 +131,7 @@ export default function App() {
       <footer id="contact">
         <div className="footer-kicker"><span>YOUR MOVE ↘</span><code>OPEN FOR COLLABORATIONS / PROJECTS / CONVERSATIONS</code></div>
         <h2>HAVE A VISION?<br /><span>DON’T BE A STRANGER.</span></h2>
-        <a className="email-pill" href="mailto:deepdhimahi@gmail.com"><span>deepdhimahi@gmail.com</span><b>EMAIL ME ↗</b></a>
+        <a className="email-pill" href="https://mail.google.com/mail/?view=cm&fs=1&to=deepdhimahi@gmail.com" target="_blank" rel="noreferrer"><span>deepdhimahi@gmail.com</span><b>EMAIL ME ↗</b></a>
         <div className="footer-bottom"><div><a href="https://www.linkedin.com/in/dhimahideep/" target="_blank" rel="noreferrer">[ LINKEDIN ]</a><a href="https://github.com/dhimahideep" target="_blank" rel="noreferrer">[ GITHUB ]</a><a href="mailto:bhatt.pragya01@gmail.com">[ ALT EMAIL ]</a></div><code>BASED IN PUNE, MH — 18.5204° N, 73.8567° E</code><p>© 2025 DHIMAHI DEEP</p></div>
       </footer>
     </main>
